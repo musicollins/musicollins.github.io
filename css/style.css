@@ -1312,7 +1312,7 @@ body.offcanvas .colorlib-nav-toggle {
 
 .colorlib-counters {
   padding: 3em 0;
-  background-size: 100% auto;
+  background-size: 50% auto;
   background-attachment: fixed;
   background-position: center;
 }
