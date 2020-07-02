@@ -1034,15 +1034,23 @@ body.offcanvas {
 
 .colorlib-counters {
   padding: 3em 0;
-  background-size: 100% auto;
+  background-size: 50% auto;
   background-attachment: fixed;
   background-position: center; 
 }
 
-  @media only screen and (max-width: 400){
+  @media only screen and (max-width: 748px){
     .colorlib-counters {
       padding: 3em 0;
-      background-size: cover;
+      background-size: auto 100%;
+      background-attachment: fixed;
+      background-position: center; 
+    }
+  }
+  @media only screen and (min-width: 752px) and (max-width: 1300px){
+    .colorlib-counters {
+      padding: 3em 0;
+      background-size: auto 100%;
       background-attachment: fixed;
       background-position: center; 
     }
